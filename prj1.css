@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;}
+body{background-color: azure;}
+.wrapper{
+    display: grid;
+    justify-content: center;
+    row-gap: 5px;
+}
+.name-facebook{
+    color: blue;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 27%;
+}
+div input{
+    background-color: rgb(240, 239, 238);
+    border-radius: 5px;
+    width: 20em;
+    padding: 7px;
+    border: none;
+}
+.button-login{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    width: 20em;
+    
+}
+.forgotten{
+    margin-left:4em;
+}
+.or-dash{
+    margin-left: 2em;
+    
+}
+div span.dash{
+    color: aqua;
+}
+div span.or{
+    color: rgb(241, 7, 7);
+}
+.button-login1{
+    margin-left: 5em;
+    padding: 5px;
+    background-color: rgb(6, 243, 112);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+footer{   
+    column-gap: 20em;
+}
+footer ol li{
+    list-style-type: none;
+}
+.footer-list{
+    margin-left: -100px;
+}
+.footer-p{
+    text-align: center;
+    margin-top: -2em;
+}
+.footer-list1{
+    margin-left: 250px;
+    margin-top: -2em;
+    list-style-type: none;
+}
+
+
+
