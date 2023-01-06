@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="rj4.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Four</title>
+    <style>
+        *{box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{background-color:blueviolet;
+    background-size: cover;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+h3{color: aliceblue;
+    border-bottom: 2px solid rgb(255, 255, 255);}
+ul a li{
+    display: inline-block;
+    color: white;
+    margin: 10px;
+}
+ul a li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+h1{
+    text-align: center;
+    color:#ffff;
+    margin-top: 100px;
+}
+h5{
+    
+    text-align: center;
+    color: #ffff;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+button{
+    border-radius: 11px;
+    height: 30px;
+    border-color: aquamarine;
+    background: transparent;
+    color: rgb(22, 7, 85);
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: aquamarine;
+    color: rgb(252, 250, 250);
+}
+
+.column{
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;   
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: #ffff;
+    padding: 40px;
+    margin-top: 200px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="nav_bar">
+        <h3>iNterior</h3>
+        <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Bedroom</li></a>
+            <a href="#"><li>Dinning</li></a>
+            <a href="#"><li>Kitchen</li></a>
+            <a href="#"><li>Backyard</li></a>
+        </ul>
+    </div>
+<h1>DESIGN YOUR HOUSE</h1>
+<h5 contenteditable="true">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ab voluptas dignissimos sit. 
+Quas, voluptatem dolorum! Esse adipisci non beatae perferendis provident molestiae iure? Pariatur soluta laudantium quisquam rerum temporibus.</h5>
+
+<div class="buttons">
+        <button type="button">WATCH HERE</button>
+        <button type="button">SUBSCRIBE</button>
+</div>
+
+<footer>
+    <div class="column">
+        <div class="col1"><p>About Us</p></div>
+        <div class="col2"><p>Contact Us</p></div>
+        <div class="col3"><p>Visit Us</p></div>
+    </div>
+    Interior Designs
+</footer>
+</div>
+<hr>
+</body>
+</html>
